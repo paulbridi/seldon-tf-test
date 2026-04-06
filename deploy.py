@@ -26,7 +26,7 @@ service = Service(
     artifacts_download=ArtifactsDownload(
         artifacts=[
             TruefoundryArtifactSource(
-                artifact_version_fqn="model:your-tenant/seldon-migration/iris-classifier:1",
+                artifact_version_fqn="model:truefoundry/default/iris-sklearn-local-artifact:1",
                 download_path_env_variable="MODEL_DIR",
             )
         ]
