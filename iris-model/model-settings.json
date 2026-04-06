@@ -1,0 +1,8 @@
+{
+    "name": "iris-classifier",
+    "implementation": "mlserver_sklearn.SKLearnModel",
+    "parameters": {
+      "uri": "./model.joblib"
+    }
+  }
+  
