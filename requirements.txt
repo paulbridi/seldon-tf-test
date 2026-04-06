@@ -1,2 +1,2 @@
-mlserver
-mlserver-sklearn
+mlserver==1.3.5
+mlserver-sklearn==1.3.5
